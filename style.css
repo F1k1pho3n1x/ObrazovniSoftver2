@@ -1,0 +1,46 @@
+@font-face {
+  font-family: calculator;
+  src: url(fonts/Calculator.woff);
+}
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+#headerLine{
+	height: 40px;
+	background-color: #1876B2;
+	margin: auto;
+	margin-top: -10px;
+	padding: auto;	
+	display: block;
+}
+body{
+	display: block;
+	background-color: #FFE0B4;
+	display: block;
+}
+header{
+	width: 1000px;
+	height: 150px;
+	background-color: #B29770;
+	margin: auto;
+	display: block;
+}
+main{
+	width: 1000px;
+	height: 800px;
+	background-color: #CDECFF;
+	margin: auto;
+	display: block;
+}
+footer{
+	width: 1000px;
+	height: 70px;
+	background-color: #B29770;
+	margin: auto;
+	display: block;
+}
+h1{
+	text-align: center;
+	padding-top: 30px;
+	font-family: "Trebuchet MS";
+	font-size: 40px;
+	margin-top: 0px;
+}
