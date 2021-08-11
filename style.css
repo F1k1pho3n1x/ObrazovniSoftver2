@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 #headerLine{
 	height: 40px;
+	min-width: 1000px;
 	background-color: #1876B2;
-	margin: auto;
-	margin-top: -10px;
+	/*margin: auto;
+	margin-top: -10px;*/
 	padding: auto;	
 	display: block;
 }
@@ -15,6 +16,7 @@ body{
 	display: block;
 	background-color: #FFE0B4;
 	display: block;
+	margin: auto;
 }
 header{
 	width: 1000px;
@@ -44,3 +46,44 @@ h1{
 	font-size: 40px;
 	margin-top: 0px;
 }
+
+.dropbtn {
+	background-color: #1876B2;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	margin: 0 16px;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: #1553a5;
+  }
